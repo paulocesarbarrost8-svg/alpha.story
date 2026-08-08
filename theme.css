@@ -1,0 +1,38 @@
+/* Alternância entre tema claro e escuro. */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  padding: 9px 11px;
+  font: 700 11px "DM Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.theme-toggle:hover { border-color: var(--accent); }
+
+body.dark-theme {
+  --ink: #edf2ee;
+  --cream: #111916;
+  --sand: #202c27;
+  --accent: #dc8b5e;
+  --muted: #b6c0b9;
+  --line: rgba(237, 242, 238, 0.2);
+}
+
+body.dark-theme .intro,
+body.dark-theme footer { background: #0c120f; }
+
+body.dark-theme .benefits,
+body.dark-theme .faq { background: #1a2520; }
+
+body.dark-theme .testimonial-grid blockquote { background: #202c27; }
+body.dark-theme .button-light { background: #edf2ee; color: #17221e; }
+body.dark-theme .product-image { filter: brightness(.82); }
+
+@media (max-width: 760px) {
+  .theme-toggle { padding: 8px 9px; }
+  .theme-toggle-text { display: none; }
+}

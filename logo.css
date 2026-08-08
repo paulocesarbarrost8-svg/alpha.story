@@ -1,0 +1,20 @@
+/* Logo da VN Importados: substitua assets/logo-vn-importados.png para atualizá-la. */
+.brand-logo {
+  display: block;
+  line-height: 0;
+}
+
+.brand-logo img {
+  display: block;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 760px) {
+  .brand-logo img {
+    width: 48px;
+    height: 48px;
+  }
+}
