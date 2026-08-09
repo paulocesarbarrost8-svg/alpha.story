@@ -1,5 +1,5 @@
 // Edite este número caso o WhatsApp da empresa mude (somente dígitos, com código do país).
-const whatsappNumber = "5587999302743";
+const whatsappNumber = "558781436395";
 
 document.querySelectorAll("[data-whatsapp]").forEach((button) => {
   const message = button.dataset.message || "Olá! Gostaria de mais informações.";
@@ -11,7 +11,7 @@ document.querySelectorAll("[data-whatsapp]").forEach((button) => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const themeToggle = document.querySelector(".theme-toggle");
-const savedTheme = localStorage.getItem("vn-importados-theme");
+const savedTheme = localStorage.getItem("alpha-story-theme");
 const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
 function setTheme(isDark) {
@@ -27,5 +27,5 @@ setTheme(savedTheme ? savedTheme === "dark" : prefersDark);
 themeToggle.addEventListener("click", () => {
   const isDark = !document.body.classList.contains("dark-theme");
   setTheme(isDark);
-  localStorage.setItem("vn-importados-theme", isDark ? "dark" : "light");
+  localStorage.setItem("alpha-story-theme", isDark ? "dark" : "light");
 });

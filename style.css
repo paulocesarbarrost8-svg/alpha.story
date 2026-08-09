@@ -50,22 +50,6 @@ a {
     font-weight: 500
 }
 
-.brand strong {
-    font-weight: 700
-}
-
-.brand-mark {
-    display: grid;
-    place-items: center;
-    width: 35px;
-    height: 35px;
-    border: 1px solid var(--ink);
-    border-radius: 50%;
-    font-family: "Playfair Display", serif;
-    font-size: 13px;
-    letter-spacing: 0
-}
-
 .nav {
     display: flex;
     gap: 30px;
@@ -247,95 +231,30 @@ h2 {
     font-size: 17px
 }
 
-.section-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap: 30px;
-    margin-bottom: 45px
-}
-
-.section-heading h2,
 .benefits h2,
-.testimonials h2,
 .faq h2 {
     font-size: clamp(35px, 4vw, 56px);
     max-width: 720px;
     margin: 0
 }
 
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px
-}
-
-.product-image {
-    height: 390px;
-    position: relative;
-    margin-bottom: 20px;
-    background-color: #c8b9a8;
-    overflow: hidden
-}
-
-.product-image:after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(145deg, transparent 35%, rgba(30, 32, 25, .22))
-}
-
-.product-image span {
-    position: absolute;
-    z-index: 1;
-    top: 18px;
-    left: 18px;
-    background: var(--cream);
-    padding: 5px 8px;
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: .1em
-}
-
-.image-shirt {
-    background: linear-gradient(140deg, #cfc8be 0 43%, #889084 43% 57%, #d9d2c9 57%)
-}
-
-.image-suit {
-    background: linear-gradient(140deg, #8f887f 0 40%, #242d2a 40% 63%, #c1b8aa 63%)
-}
-
-.image-polo {
-    background: linear-gradient(140deg, #d6c7b5 0 38%, #a26c45 38% 61%, #e2d6c3 61%)
-}
-
-.product-card h3 {
-    font-family: "Playfair Display", serif;
-    font-size: 23px;
-    font-weight: 600;
-    margin: 0 0 4px
-}
-
-.product-card p {
-    margin: 0 0 12px;
-    color: var(--muted);
-    font-size: 14px
-}
-
-.product-card>a {
-    font-size: 12px;
-    font-weight: 700
-}
-
-.product-card>a:hover {
-    color: var(--accent)
-}
-
 .benefits {
     display: grid;
     grid-template-columns: 1fr 1.25fr;
     gap: 8vw;
-    background: #e9e2d7
+    /* background: #e9e2d7; */
+    margin-bottom: 5px;
+}
+
+.benefits + .faq::before {
+    content: "";
+    display: block;
+    width: 84px;
+    height: 4px;
+    margin: 0 auto 32px;
+    background: var(--accent);
+    border-radius: 999px;
+    opacity: .55;
 }
 
 .benefit-list article {
@@ -365,37 +284,6 @@ h2 {
     margin: 0;
     color: var(--muted);
     max-width: 450px
-}
-
-.testimonials {
-    text-align: center
-}
-
-.testimonials h2 {
-    margin: 0 auto 45px
-}
-
-.testimonial-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
-    text-align: left
-}
-
-.testimonial-grid blockquote {
-    margin: 0;
-    padding: 30px;
-    background: #fff;
-    font-family: "Playfair Display", serif;
-    font-size: 21px;
-    line-height: 1.35
-}
-
-.testimonial-grid footer {
-    margin-top: 24px;
-    font-family: "DM Sans", sans-serif;
-    color: var(--muted);
-    font-size: 12px
 }
 
 .faq {
@@ -567,11 +455,6 @@ footer {
         font-size: 11px
     }
 
-    .brand-mark {
-        width: 31px;
-        height: 31px
-    }
-
     .hero {
         grid-template-columns: 1fr
     }
@@ -603,28 +486,6 @@ footer {
     .faq {
         grid-template-columns: 1fr;
         gap: 34px
-    }
-
-    .product-grid,
-    .testimonial-grid {
-        grid-template-columns: 1fr;
-        gap: 36px
-    }
-
-    .product-image {
-        height: 360px
-    }
-
-    .section-heading {
-        margin-bottom: 35px
-    }
-
-    .desktop-only {
-        display: none
-    }
-
-    .testimonial-grid blockquote {
-        font-size: 19px
     }
 
     .footer-main {
@@ -661,9 +522,5 @@ footer {
     .topbar {
         padding-left: 18px;
         padding-right: 18px
-    }
-
-    .topbar .brand>span:last-child {
-        display: none
     }
 }

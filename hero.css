@@ -8,9 +8,28 @@
   z-index: 0;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.34)),
-    url("assets/hero-vn-importados.png") center / cover no-repeat;
+    url("assets/hero-alpha-story-1.png.jpeg") center / cover no-repeat;
   opacity: 1;
   filter: none;
+}
+
+.hero-visual img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 760px) {
+  .hero-visual {
+    min-height: 320px;
+  }
+
+  .hero-visual img {
+    max-height: 320px;
+  }
 }
 
 .visual-label,
