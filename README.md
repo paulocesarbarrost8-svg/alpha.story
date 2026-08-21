@@ -69,7 +69,7 @@ bashCopiar
 cd nome-do-repositorio
 Abra o arquivo index.html em seu navegador de preferência.
 
-🧑‍💻 Desenvolvido por
+# 🧑‍💻 Desenvolvido por
 Paulo Cesar
 
 LinkedIn (Substitua pelo link do seu perfil do LinkedIn)
@@ -77,5 +77,5 @@ LinkedIn (Substitua pelo link do seu perfil do LinkedIn)
 GitHub (Substitua pelo link do seu perfil do GitHub)
 
 📄 Licença
-Este projeto é de propriedade intelectual do cliente e seu código é disponibilizado para fins de portfólio. © [Ano Atual] Paulo Cesar. Todos os direitos reservados.
+Este projeto é de propriedade intelectual do cliente e seu código é disponibilizado para fins de portfólio. © 2026 Paulo Cesar. Todos os direitos reservados.
 
