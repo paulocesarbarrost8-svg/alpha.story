@@ -31,34 +31,38 @@
 ° JavaScript (Vanilla JS): Para adicionar interatividade, como o toggle de modo escuro e a funcionalidade do botão WhatsApp.
 
 # 🚀 Acessar o Projeto Online
-Este projeto está hospedado e pode ser acessado em: https://www.seu-site-alpha-story.com.br (Substitua este link pelo URL real do seu site)
+Este projeto está hospedado e pode ser acessado em: https://alpha-story-4wq8.vercel.app/
 
-# 📸 Screenshots
-<div>
-  <div>
-  Desktop View
-  Alpha Story Website - Desktop View
-    <img
-      src="https://github.com/paulocesarbarrost8-svg/alpha.story/blob/main/assets/Captura%20de%20tela%202026-08-21%20104046.png?raw=true"
-      alt="logo-progarma-JokenPô"
-      width="640px"
-  </div>
-  <div>
-  Mobile View
-  Alpha Story Website - Mobile View
-    <img
-      src="https://github.com/paulocesarbarrost8-svg/alpha.story/blob/main/assets/Captura%20de%20tela%202026-08-21%20104158.png?raw=true"
-      alt="logo-progarma-JokenPô"
-      width="140px"
-  </div>
-</div>
+## 📸 Screenshots
+
+Para uma visualização completa do design e responsividade do projeto, confira as imagens abaixo:
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img  src="https://github.com/paulocesarbarrost8-svg/alpha.story/blob/main/assets/Captura%20de%20tela%202026-08-21%20104046.png?raw=true" 
+        alt="Alpha Story Website - Desktop View"
+        width="90%">
+      <br>
+      <em>Desktop View</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/paulocesarbarrost8-svg/alpha.story/blob/main/assets/Captura%20de%20tela%202026-08-21%20104158.png?raw=true"
+        alt="Alpha Story Website - Mobile View"
+        width="340px">
+      <br>
+      <em>Mobile View</em>
+    </td>
+  </tr>
+</table>
+ 
 # 📦 Como Executar Localmente
 Para clonar e executar este projeto em sua máquina local, siga os passos abaixo:
 
 Clone o repositório:
 
 bashCopiar
-git clone https://github.com/SeuUsuario/nome-do-repositorio.git
+git clone https://github.com/paulocesarbarrost8-svg/alpha.story.git
 Navegue até o diretório do projeto:
 
 bashCopiar
