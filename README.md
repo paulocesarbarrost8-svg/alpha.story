@@ -56,18 +56,26 @@ Para uma visualização completa do design e responsividade do projeto, confira 
   </tr>
 </table>
  
-# 📦 Como Executar Localmente
-Para clonar e executar este projeto em sua máquina local, siga os passos abaixo:
+## 📦 Como Executar Localmente
 
-Clone o repositório:
+Para baixar e visualizar este projeto em sua máquina, siga os passos abaixo:
 
-bashCopiar
-git clone https://github.com/paulocesarbarrost8-svg/alpha.story.git
-Navegue até o diretório do projeto:
+1.  **Baixe o Projeto:**
+    *   Vá para a página principal deste repositório no GitHub.
+    *   Procure pelo botão verde **"< > Code"** (ou "Código").
+    *   Clique nele e selecione a opção **"Download ZIP"**.
+    *   O arquivo `alpha.story-main.zip` (ou similar) será baixado para o seu computador.
 
-bashCopiar
-cd alpha.story
-Abra o arquivo index.html em seu navegador de preferência.
+2.  **Descompacte o Arquivo:**
+    *   Localize o arquivo `.zip` que você baixou.
+    *   Clique com o botão direito do mouse sobre ele e escolha a opção "Extrair Tudo" (ou "Descompactar", "Abrir").
+    *   Isso criará uma nova pasta (ex: `alpha.story-main`) com todos os arquivos do projeto.
+
+3.  **Abra o Site no Navegador:**
+    *   Entre na pasta que você acabou de descompactar (ex: `alpha.story-main`).
+    *   Encontre o arquivo chamado `index.html`.
+    *   Clique duas vezes no `index.html`. Seu site será aberto automaticamente no seu navegador de internet padrão (como Chrome, Firefox, Edge, etc.).
+
 
 # 🧑‍💻 Desenvolvido por
 Paulo Cesar
