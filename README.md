@@ -66,15 +66,15 @@ git clone https://github.com/paulocesarbarrost8-svg/alpha.story.git
 Navegue até o diretório do projeto:
 
 bashCopiar
-cd nome-do-repositorio
+cd alpha.story
 Abra o arquivo index.html em seu navegador de preferência.
 
 # 🧑‍💻 Desenvolvido por
 Paulo Cesar
 
-LinkedIn (Substitua pelo link do seu perfil do LinkedIn)
+LinkedIn https://www.linkedin.com/in/paulocesarbt/
 
-GitHub (Substitua pelo link do seu perfil do GitHub)
+GitHub https://github.com/paulocesarbarrost8-svg
 
 📄 Licença
 Este projeto é de propriedade intelectual do cliente e seu código é disponibilizado para fins de portfólio. © 2026 Paulo Cesar. Todos os direitos reservados.
