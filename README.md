@@ -1,6 +1,6 @@
 # Alpha Story - Website Institucional e Vitrine Digital (Moda Masculina)
 
-#📝 Descrição do Projeto
+# 📝 Descrição do Projeto
 ° Este repositório apresenta o código-fonte do website oficial da Alpha Story, uma marca de moda masculina focada em qualidade, autenticidade e presença. Desenvolvido para ser uma vitrine digital elegante e funcional, este projeto está atualmente em produção e ativo para o cliente, servindo como sua principal plataforma online para apresentar a marca e suas coleções.
 <br>
 <br>
